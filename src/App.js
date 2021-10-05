@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import Hero from './features/Hero/index';
 import Homepage from './Page/Homepage';
 App.propTypes = {

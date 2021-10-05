@@ -1,5 +1,5 @@
-import React, { useEffect,useState } from 'react';
-import queryString from 'query-string';
+import React from 'react';
+// import queryString from 'query-string';
 
 // import logo from './logo.svg';
 // import './App.css';
@@ -15,18 +15,18 @@ import MagicBox from '../../features/MagicBox';
 
 function Homepage() {
   
-  const [postList,setPostList] = useState([]);
-  const [pagination, setPagination] = useState({
-    _page: 1,
-    _limit: 10,
-    _totalRows: 1,
-  });
+  // const [postList,setPostList] = useState([]);
+  // const [pagination, setPagination] = useState({
+  //   _page: 1,
+  //   _limit: 10,
+  //   _totalRows: 1,
+  // });
 
-  const [filter, setFilter] = useState({
-    _limit: 10,
-    _page: 1,
-  });
-  const [hideClock, setHideClock] = useState(true)
+  // const [filter, setFilter] = useState({
+  //   _limit: 10,
+  //   _page: 1,
+  // });
+  // const [hideClock, setHideClock] = useState(true)
   // useEffect(()=>{
   //   async function fetchPostList(){
   //     try {
