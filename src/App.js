@@ -15,6 +15,7 @@ function App() {
       <button onClick={() => setCount(count + 1)}>Increase</button>
       <Hero name="Easy Frontend"/>
       <Homepage/>
+      <p>Haha</p>
     </div>
   );
 }
